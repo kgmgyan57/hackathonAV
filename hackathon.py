@@ -18,7 +18,7 @@ from sklearn.metrics import accuracy_score,roc_auc_score
 from xgboost import XGBClassifier
 
 
-df = pd.read_csv('/train_s3TEQDk.csv')
+df = pd.read_csv('train_s3TEQDk.csv')
 tf = pd.read_csv('test_mSzZ8RL.csv')
 
 print(df.info())
